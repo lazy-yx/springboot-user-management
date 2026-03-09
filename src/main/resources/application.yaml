@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: springboot-user-management
+
+  datasource:
+    url: jdbc:mysql://117.89.250.153:3306/upwork_demo
+    username: root
+    password: yx.0824.
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  data:
+    redis:
+      host: 117.89.250.153
+      port: 6379
+      password: yx.0824.
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
