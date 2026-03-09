@@ -1,5 +1,8 @@
 # Spring Boot User Management API
 
+```markdown
+Backend portfolio project for Upwork clients.
+
 A production-ready backend API for user management built with Spring Boot.
 
 This project demonstrates how to build a scalable RESTful backend service with authentication, caching, and database integration.
